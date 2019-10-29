@@ -6,13 +6,15 @@
   margin: 40px auto;
 
   &__img {
-    flex-grow: 0;
-    background-color: yellow;
+    flex-grow: 1;
   }
 
   &__content {
-    flex-grow: 2;
+    flex-grow: 3;
     background-color: $secondary-color;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
   }
 }
 
