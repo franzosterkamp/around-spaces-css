@@ -1,0 +1,22 @@
+.card {
+  display: flex;
+  width: 500px;
+  height: 180px;
+  border: $border_primary;
+  margin: 40px auto;
+
+  &__img {
+    flex-grow: 0;
+    background-color: yellow;
+  }
+
+  &__content {
+    flex-grow: 2;
+    background-color: $secondary-color;
+  }
+}
+
+.img {
+  max-height: 100%;
+  max-width: 100%;
+}

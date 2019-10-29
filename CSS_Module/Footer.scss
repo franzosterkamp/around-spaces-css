@@ -1,0 +1,16 @@
+.ftr {
+  display: flex;
+  justify-content: space-around;
+  background: $background-color;
+  height: 80px;
+  width: 100%;
+  border: $border_primary;
+  text-align: center;
+  align-items: center;
+}
+.btn__ftr {
+  width: 100px;
+  height: 30px;
+  border: solid 3px lightgrey;
+  border-radius: 15%;
+}
