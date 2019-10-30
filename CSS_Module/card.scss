@@ -1,20 +1,29 @@
 .card {
   display: flex;
-  width: 500px;
+  width: 560px;
   height: 180px;
   border: $border_primary;
   margin: 40px auto;
+  justify-content: flex-start;
+  border-radius: 50px;
+  background-color: white;
 
   &__img {
-    flex-grow: 1;
+    flex-grow: 0;
+    padding: 15px;
+    max-width: 200px;
+    max-height: 390px;
+    display: inline-block;
+    margin-right: 15px;
+    border-top-left-radius: 30%;
   }
 
   &__content {
-    flex-grow: 3;
-    background-color: $secondary-color;
-    display: flex;
-    align-items: center;
+    flex-grow: 10;
+    // background-color: lightgreen;
+    display: column;
     flex-wrap: wrap;
+    // justify-content: flex-start;
   }
 }
 
