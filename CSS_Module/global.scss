@@ -8,6 +8,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  background-image: $background-image;
 }
 
 .main {
@@ -17,5 +18,4 @@
 
 .bdy {
   font-family: "Roboto", sans-serif;
-  background-image: $background-image;
 }
