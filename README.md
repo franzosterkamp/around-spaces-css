@@ -17,3 +17,5 @@ build for production
 npm run build
 
 ///
+
+Franz Osterkamp
