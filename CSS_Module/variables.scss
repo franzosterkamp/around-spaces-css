@@ -1,4 +1,10 @@
 $primary-color: #fcb045;
 $secondary-color: #fff;
-$background-color: lightgrey;
+$background: linear-gradient(#e02525, white);
+
+$background-image: radial-gradient(
+  circle 386px at 0% 62.1%,
+  rgba(16, 224, 254, 1) 0%,
+  rgba(15, 19, 196, 1) 100.7%
+);
 $border_primary: #fff 1px solid;
